@@ -1,6 +1,5 @@
 function setup() {
-  createCanvas(400, 400);
-  background(220);
+  cvs = SVG().addTo('main').size(windowWidth, windowHeight).attr({ fill: '#000' });
 }
 
 function draw() {
